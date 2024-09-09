@@ -31,10 +31,11 @@ function Login() {
       toast.error("Please enter a valid email!");
       setLoginLoader(false);
     } else {
-      toast.success("Form Submitted Successfully!");
+      toast.success("Logged In Successfully!");
       setEmail("");
       setPassword("");
       setLoginLoader(false);
+      router.push("/merchant/onboarding");
     }
   };
   const handleSubmitForgot = () => {
@@ -67,7 +68,7 @@ function Login() {
         theme="light"
       />
       <Head>
-        <title>QISSTPAY - LOGIN</title>
+        <title>Harvv Financing</title>
         {/* <meta
           name="description"
           content="Circle.ooo ❤️'s our customers! Events: beautiful, fast & simple for all."
@@ -81,7 +82,7 @@ function Login() {
             <img src={logo.src} alt="Logo" className="h-14" />
           </div>
           <p className="w-full text-center text-[#101828] text-3xl font-semibold mt-4">
-            Welcome to QisstPay’s B2B Financing Portal
+            Welcome to Harvv's B2B Financing Portal
           </p>
           {showForgotPasswordScreen === false && (
             <>
@@ -94,7 +95,7 @@ function Login() {
                     borderRadius: "8px",
                     boxShadow: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
                   }}
-                  className="w-full bg-white md:w-3/5 border border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
+                  className="w-full bg-white md:w-3/5 border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
                   id="email"
                   type="email"
                   value={email}
@@ -111,7 +112,7 @@ function Login() {
                     borderRadius: "8px",
                     boxShadow: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
                   }}
-                  className="w-full bg-white md:w-3/5 border border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
+                  className="w-full bg-white md:w-3/5 border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
                   id="password"
                   type="password"
                   value={password}
@@ -195,7 +196,7 @@ function Login() {
                     borderRadius: "8px",
                     boxShadow: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
                   }}
-                  className="w-full bg-white md:w-3/5 border border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
+                  className="w-full bg-white md:w-3/5 border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
                   id="email"
                   type="email"
                   value={forgotEmail}

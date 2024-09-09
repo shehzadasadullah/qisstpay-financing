@@ -99,7 +99,7 @@ function PersonalInformation() {
                 borderRadius: "8px",
                 boxShadow: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
               }}
-              className="w-full text-[#667085] bg-white md:w-3/5 border border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
+              className="w-full text-[#667085] bg-white md:w-3/5 border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
               id="email"
               type="email"
               value={email}
@@ -117,7 +117,7 @@ function PersonalInformation() {
                 borderRadius: "8px",
                 boxShadow: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
               }}
-              className="w-full text-[#667085] bg-white md:w-3/5 border border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
+              className="w-full text-[#667085] bg-white md:w-3/5 border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
               id="password"
               type="password"
               value={password}
@@ -135,7 +135,7 @@ function PersonalInformation() {
                 borderRadius: "8px",
                 boxShadow: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
               }}
-              className="w-full text-[#667085] bg-white md:w-3/5 border border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
+              className="w-full text-[#667085] bg-white md:w-3/5 border-opacity-80 focus:border-opacity-100 focus:border-[#E93A7D] border-[#D0D5DD] border-[1px] py-3 px-5 outline-none"
               id="confirmPassword"
               type="password"
               value={confirmPassword}

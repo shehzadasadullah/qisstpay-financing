@@ -1,3 +1,89 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* navbar css */
+
+.nav-item {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #F9FAFB;
+    color: #182230;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav-item:hover {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #E93A7D;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav-item-active {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #E93A7D;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav-item-dropdown {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: transparent;
+    color: #182230;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav-item-dropdown:hover {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #E93A7D;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav-item-dropdown-active {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #E93A7D;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav-dropdown {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #F9FAFB;
+    color: #182230;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
