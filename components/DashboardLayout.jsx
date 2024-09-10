@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import logo from "@/public/logo/logo_qp.png";
+import icon from "@/public/favicon.ico";
 import Head from "next/head";
 
 export default function DashboardLayout({ children, active }) {
@@ -60,7 +61,7 @@ export default function DashboardLayout({ children, active }) {
               </button>
             </div>
           </div>
-          <nav className="w-full h-full mt-4 md:mt-2 flex justify-start items-center flex-col gap-2">
+          <nav className="w-full rounded-[6px] overflow-auto h-full mt-4 md:mt-2 flex justify-start items-center flex-col gap-2">
             <Link href="/merchant/onboarding" className="w-full">
               <div
                 className={`flex justify-start items-center ${
@@ -536,8 +537,72 @@ export default function DashboardLayout({ children, active }) {
               </div>
             </div>
           </nav>
-          <div className="w-full text-center border-2">
-            Navbar Bottom (TODO)
+          <div className="w-full mt-2 flex justify-center items-center flex-col gap-3">
+            <div className="w-full p-3 switch-div-wrapper flex flex-col justify-center items-center gap-3">
+              <div className="w-full flex justify-center items-center">
+                <div className="i-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M7.49967 8.75L9.16634 10.4167L12.9163 6.66667M16.6663 17.5V6.5C16.6663 5.09987 16.6663 4.3998 16.3939 3.86502C16.1542 3.39462 15.7717 3.01217 15.3013 2.77248C14.7665 2.5 14.0665 2.5 12.6663 2.5H7.33301C5.93288 2.5 5.23281 2.5 4.69803 2.77248C4.22763 3.01217 3.84517 3.39462 3.60549 3.86502C3.33301 4.3998 3.33301 5.09987 3.33301 6.5V17.5L5.62467 15.8333L7.70801 17.5L9.99967 15.8333L12.2913 17.5L14.3747 15.8333L16.6663 17.5Z"
+                      stroke="#7F56D9"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="w-full s-text1 text-center">
+                Switching to the buyer portal?
+              </div>
+              <div className="w-full s-text2 text-center">Login as Buyer</div>
+            </div>
+            <div className="w-full h-[1px] bg-[#EAECF0]"></div>
+            <div className="w-full flex flex-row justify-start items-start gap-2">
+              <div className="w-full flex justify-start gap-2 items-center flex-row">
+                <div className="rounded-full">
+                  <img
+                    src={icon.src}
+                    alt="Image"
+                    style={{
+                      height: "32pt",
+                      width: "42pt",
+                    }}
+                  />
+                </div>
+                <div className="w-full flex justify-start items-start flex-col">
+                  <div className="w-full text-start b-nav-name">
+                    Jordan Olivas
+                  </div>
+                  <div className="w-full text-start b-nav-email">
+                    jordanolivas@mail.com
+                  </div>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <path
+                    d="M13.3333 14.1667L17.5 10M17.5 10L13.3333 5.83333M17.5 10H7.5M7.5 2.5H6.5C5.09987 2.5 4.3998 2.5 3.86502 2.77248C3.39462 3.01217 3.01217 3.39462 2.77248 3.86502C2.5 4.3998 2.5 5.09987 2.5 6.5V13.5C2.5 14.9001 2.5 15.6002 2.77248 16.135C3.01217 16.6054 3.39462 16.9878 3.86502 17.2275C4.3998 17.5 5.09987 17.5 6.5 17.5H7.5"
+                    stroke="#475467"
+                    stroke-width="1.66667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
 

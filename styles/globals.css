@@ -87,3 +87,59 @@
     font-weight: 600;
     line-height: 24px;
 }
+
+.switch-div-wrapper {
+    padding: 16px;
+    border-radius: 12px;
+    background: #F6F8FA;
+}
+
+.i-wrapper {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    background: #F4EBFF;
+}
+
+.s-text1 {
+    color: #525866;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.084px;
+}
+
+.s-text2 {
+    color: #E93A7D;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.084px;
+    text-decoration-line: underline;
+}
+
+.b-nav-name {
+    color: #344054;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.b-nav-email {
+    color: #475467;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
